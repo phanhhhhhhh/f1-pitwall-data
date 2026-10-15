@@ -1,0 +1,511 @@
+{
+ "schemaVersion": 1,
+ "kind": "full",
+ "status": "passed",
+ "generatedAt": "2026-10-15T13:32:32Z",
+ "auditedThrough": "2026-10-15",
+ "scope": "full",
+ "seasons": [
+  2025,
+  2026
+ ],
+ "comparisons": {
+  "total": 1078,
+  "ok": 1048,
+  "known": 28,
+  "warn": 0,
+  "pending": 0,
+  "fail": 0,
+  "skip": 2
+ },
+ "byCheck": [
+  {
+   "code": "R-DRIVERS",
+   "label": "Drivers in race results",
+   "ok": 53,
+   "known": 0,
+   "warn": 0,
+   "pending": 0,
+   "fail": 0,
+   "skip": 0
+  },
+  {
+   "code": "R-POS",
+   "label": "Finishing positions",
+   "ok": 53,
+   "known": 0,
+   "warn": 0,
+   "pending": 0,
+   "fail": 0,
+   "skip": 0
+  },
+  {
+   "code": "R-STATUS",
+   "label": "Finishing status",
+   "ok": 53,
+   "known": 0,
+   "warn": 0,
+   "pending": 0,
+   "fail": 0,
+   "skip": 0
+  },
+  {
+   "code": "R-POINTS",
+   "label": "Points",
+   "ok": 53,
+   "known": 0,
+   "warn": 0,
+   "pending": 0,
+   "fail": 0,
+   "skip": 0
+  },
+  {
+   "code": "R-GRID",
+   "label": "Starting positions",
+   "ok": 53,
+   "known": 0,
+   "warn": 0,
+   "pending": 0,
+   "fail": 0,
+   "skip": 0
+  },
+  {
+   "code": "R-FL",
+   "label": "Fastest lap",
+   "ok": 41,
+   "known": 0,
+   "warn": 0,
+   "pending": 0,
+   "fail": 0,
+   "skip": 0
+  },
+  {
+   "code": "R-TEAM",
+   "label": "Teams in race results",
+   "ok": 53,
+   "known": 0,
+   "warn": 0,
+   "pending": 0,
+   "fail": 0,
+   "skip": 0
+  },
+  {
+   "code": "Q-DRIVERS",
+   "label": "Drivers in qualifying",
+   "ok": 41,
+   "known": 0,
+   "warn": 0,
+   "pending": 0,
+   "fail": 0,
+   "skip": 0
+  },
+  {
+   "code": "Q-POS",
+   "label": "Qualifying positions",
+   "ok": 41,
+   "known": 0,
+   "warn": 0,
+   "pending": 0,
+   "fail": 0,
+   "skip": 0
+  },
+  {
+   "code": "Q-TIMES",
+   "label": "Qualifying times",
+   "ok": 41,
+   "known": 0,
+   "warn": 0,
+   "pending": 0,
+   "fail": 0,
+   "skip": 0
+  },
+  {
+   "code": "Q-GRID",
+   "label": "Qualifying grid positions",
+   "ok": 41,
+   "known": 0,
+   "warn": 0,
+   "pending": 0,
+   "fail": 0,
+   "skip": 0
+  },
+  {
+   "code": "PEN-VERIFY",
+   "label": "Grid penalties",
+   "ok": 58,
+   "known": 0,
+   "warn": 0,
+   "pending": 0,
+   "fail": 0,
+   "skip": 2
+  },
+  {
+   "code": "PEN-MISSING",
+   "label": "Grid places lost without a penalty",
+   "ok": 33,
+   "known": 14,
+   "warn": 0,
+   "pending": 0,
+   "fail": 0,
+   "skip": 0
+  },
+  {
+   "code": "ST-DRV",
+   "label": "Drivers' standings",
+   "ok": 2,
+   "known": 0,
+   "warn": 0,
+   "pending": 0,
+   "fail": 0,
+   "skip": 0
+  },
+  {
+   "code": "ST-CON",
+   "label": "Constructors' standings",
+   "ok": 2,
+   "known": 0,
+   "warn": 0,
+   "pending": 0,
+   "fail": 0,
+   "skip": 0
+  },
+  {
+   "code": "ST-SPRINT",
+   "label": "Sprint standings",
+   "ok": 2,
+   "known": 0,
+   "warn": 0,
+   "pending": 0,
+   "fail": 0,
+   "skip": 0
+  },
+  {
+   "code": "CAL-DATE",
+   "label": "Race dates",
+   "ok": 45,
+   "known": 14,
+   "warn": 0,
+   "pending": 0,
+   "fail": 0,
+   "skip": 0
+  },
+  {
+   "code": "CAL-ROUNDMAP",
+   "label": "Round numbers",
+   "ok": 59,
+   "known": 0,
+   "warn": 0,
+   "pending": 0,
+   "fail": 0,
+   "skip": 0
+  },
+  {
+   "code": "CAL-STATUS",
+   "label": "Calendar status",
+   "ok": 61,
+   "known": 0,
+   "warn": 0,
+   "pending": 0,
+   "fail": 0,
+   "skip": 0
+  },
+  {
+   "code": "WK-MEETING",
+   "label": "Weekend sessions",
+   "ok": 53,
+   "known": 0,
+   "warn": 0,
+   "pending": 0,
+   "fail": 0,
+   "skip": 0
+  },
+  {
+   "code": "WK-SESSION",
+   "label": "Session results",
+   "ok": 10,
+   "known": 0,
+   "warn": 0,
+   "pending": 0,
+   "fail": 0,
+   "skip": 0
+  },
+  {
+   "code": "DUP",
+   "label": "Duplicate entries",
+   "ok": 94,
+   "known": 0,
+   "warn": 0,
+   "pending": 0,
+   "fail": 0,
+   "skip": 0
+  },
+  {
+   "code": "GAP",
+   "label": "Missing results or qualifying",
+   "ok": 53,
+   "known": 0,
+   "warn": 0,
+   "pending": 0,
+   "fail": 0,
+   "skip": 0
+  },
+  {
+   "code": "GAP-STUCK",
+   "label": "Results still provisional",
+   "ok": 53,
+   "known": 0,
+   "warn": 0,
+   "pending": 0,
+   "fail": 0,
+   "skip": 0
+  }
+ ],
+ "knownDifferences": [
+  {
+   "id": "sprint-row-date",
+   "check": "CAL-DATE",
+   "verdict": "KNOWN",
+   "title": "Sprint date is one day earlier",
+   "reason": "The app dates a sprint on the day it was run. Jolpica's sprint data carries the Grand Prix date, one day later.",
+   "scope": {},
+   "matched": 12
+  },
+  {
+   "id": "las-vegas-local-date",
+   "check": "CAL-DATE",
+   "verdict": "KNOWN",
+   "title": "Las Vegas date differs by one day",
+   "reason": "The app stores the Las Vegas Grand Prix under its local Saturday; Jolpica dates it Sunday in UTC.",
+   "scope": {
+    "race": "Las Vegas Grand Prix"
+   },
+   "matched": 2
+  },
+  {
+   "id": "q-times-missing-2025",
+   "check": "Q-TIMES",
+   "verdict": "WARN",
+   "title": "Missing qualifying times",
+   "reason": "The app is missing this qualifying time that Jolpica has. This is a known gap that has not been filled in yet.",
+   "scope": {
+    "season": 2025,
+    "race": [
+     "Australian Grand Prix",
+     "Miami Grand Prix",
+     "Emilia Romagna Grand Prix",
+     "Dutch Grand Prix",
+     "Azerbaijan Grand Prix",
+     "Singapore Grand Prix",
+     "United States Grand Prix"
+    ]
+   },
+   "matched": 0
+  },
+  {
+   "id": "q-times-missing-2026",
+   "check": "Q-TIMES",
+   "verdict": "WARN",
+   "title": "Missing qualifying times",
+   "reason": "The app is missing this qualifying time that Jolpica has. This is a known gap that has not been filled in yet.",
+   "scope": {
+    "season": 2026,
+    "race": [
+     "Miami Grand Prix"
+    ]
+   },
+   "matched": 0
+  },
+  {
+   "id": "provisional-not-classified",
+   "check": "R-STATUS",
+   "verdict": "KNOWN",
+   "title": "Provisional classification",
+   "reason": "After a race the app first shows OpenF1's provisional result, which lists a car OpenF1 leaves unclassified without a retirement flag as 'Not classified'. For up to three days the app re-checks Jolpica and replaces it with Jolpica's official classification, which says 'Retired', as soon as that exists.",
+   "scope": {},
+   "matched": 0
+  },
+  {
+   "id": "pit-lane-start-2025-r6-gasly",
+   "check": "PEN-MISSING",
+   "verdict": "KNOWN",
+   "title": "Pit-lane start",
+   "reason": "Pit-lane start, not a grid penalty: Jolpica numbers pit-lane starters at the back of the grid, so the places lost are arithmetic.",
+   "scope": {
+    "season": 2025,
+    "round": 6,
+    "driver": "Pierre Gasly"
+   },
+   "matched": 1
+  },
+  {
+   "id": "pit-lane-start-2025-r13-hamilton",
+   "check": "PEN-MISSING",
+   "verdict": "KNOWN",
+   "title": "Pit-lane start",
+   "reason": "Pit-lane start, not a grid penalty: Jolpica numbers pit-lane starters at the back of the grid, so the places lost are arithmetic.",
+   "scope": {
+    "season": 2025,
+    "round": 13,
+    "driver": "Lewis Hamilton"
+   },
+   "matched": 1
+  },
+  {
+   "id": "pit-lane-start-2025-r13-antonelli",
+   "check": "PEN-MISSING",
+   "verdict": "KNOWN",
+   "title": "Pit-lane start",
+   "reason": "Pit-lane start, not a grid penalty: Jolpica numbers pit-lane starters at the back of the grid, so the places lost are arithmetic.",
+   "scope": {
+    "season": 2025,
+    "round": 13,
+    "driver": "Andrea Kimi Antonelli"
+   },
+   "matched": 1
+  },
+  {
+   "id": "pit-lane-start-2025-r13-alonso",
+   "check": "PEN-MISSING",
+   "verdict": "KNOWN",
+   "title": "Pit-lane start",
+   "reason": "Pit-lane start, not a grid penalty: Jolpica numbers pit-lane starters at the back of the grid, so the places lost are arithmetic.",
+   "scope": {
+    "season": 2025,
+    "round": 13,
+    "driver": "Fernando Alonso"
+   },
+   "matched": 1
+  },
+  {
+   "id": "pit-lane-start-2025-r13-sainz",
+   "check": "PEN-MISSING",
+   "verdict": "KNOWN",
+   "title": "Pit-lane start",
+   "reason": "Pit-lane start, not a grid penalty: Jolpica numbers pit-lane starters at the back of the grid, so the places lost are arithmetic.",
+   "scope": {
+    "season": 2025,
+    "round": 13,
+    "driver": "Carlos Sainz"
+   },
+   "matched": 1
+  },
+  {
+   "id": "pit-lane-start-2025-r14-tsunoda",
+   "check": "PEN-MISSING",
+   "verdict": "KNOWN",
+   "title": "Pit-lane start",
+   "reason": "Pit-lane start, not a grid penalty: Jolpica numbers pit-lane starters at the back of the grid, so the places lost are arithmetic.",
+   "scope": {
+    "season": 2025,
+    "round": 14,
+    "driver": "Yuki Tsunoda"
+   },
+   "matched": 1
+  },
+  {
+   "id": "pit-lane-start-2025-r15-bearman",
+   "check": "PEN-MISSING",
+   "verdict": "KNOWN",
+   "title": "Pit-lane start",
+   "reason": "Pit-lane start, not a grid penalty: Jolpica numbers pit-lane starters at the back of the grid, so the places lost are arithmetic.",
+   "scope": {
+    "season": 2025,
+    "round": 15,
+    "driver": "Oliver Bearman"
+   },
+   "matched": 1
+  },
+  {
+   "id": "pit-lane-start-2025-r16-hadjar",
+   "check": "PEN-MISSING",
+   "verdict": "KNOWN",
+   "title": "Pit-lane start",
+   "reason": "Pit-lane start, not a grid penalty: Jolpica numbers pit-lane starters at the back of the grid, so the places lost are arithmetic.",
+   "scope": {
+    "season": 2025,
+    "round": 16,
+    "driver": "Isack Hadjar"
+   },
+   "matched": 1
+  },
+  {
+   "id": "pit-lane-start-2025-r16-gasly",
+   "check": "PEN-MISSING",
+   "verdict": "KNOWN",
+   "title": "Pit-lane start",
+   "reason": "Pit-lane start, not a grid penalty: Jolpica numbers pit-lane starters at the back of the grid, so the places lost are arithmetic.",
+   "scope": {
+    "season": 2025,
+    "round": 16,
+    "driver": "Pierre Gasly"
+   },
+   "matched": 1
+  },
+  {
+   "id": "pit-lane-start-2025-r18-albon",
+   "check": "PEN-MISSING",
+   "verdict": "KNOWN",
+   "title": "Pit-lane start",
+   "reason": "Pit-lane start, not a grid penalty: Jolpica numbers pit-lane starters at the back of the grid. The driver was excluded from qualifying, so the qualifying position is an exclusion rank, not an earned place.",
+   "scope": {
+    "season": 2025,
+    "round": 18,
+    "driver": "Alexander Albon"
+   },
+   "matched": 1
+  },
+  {
+   "id": "pit-lane-start-2025-r18-gasly",
+   "check": "PEN-MISSING",
+   "verdict": "KNOWN",
+   "title": "Pit-lane start",
+   "reason": "Pit-lane start, not a grid penalty: Jolpica numbers pit-lane starters at the back of the grid, so the places lost are arithmetic.",
+   "scope": {
+    "season": 2025,
+    "round": 18,
+    "driver": "Pierre Gasly"
+   },
+   "matched": 1
+  },
+  {
+   "id": "pit-lane-start-2025-r21-verstappen",
+   "check": "PEN-MISSING",
+   "verdict": "KNOWN",
+   "title": "Pit-lane start",
+   "reason": "Pit-lane start, not a grid penalty: Jolpica numbers pit-lane starters at the back of the grid, so the places lost are arithmetic.",
+   "scope": {
+    "season": 2025,
+    "round": 21,
+    "driver": "Max Verstappen"
+   },
+   "matched": 1
+  },
+  {
+   "id": "pit-lane-start-2025-r21-ocon",
+   "check": "PEN-MISSING",
+   "verdict": "KNOWN",
+   "title": "Pit-lane start",
+   "reason": "Pit-lane start, not a grid penalty: Jolpica numbers pit-lane starters at the back of the grid, so the places lost are arithmetic.",
+   "scope": {
+    "season": 2025,
+    "round": 21,
+    "driver": "Esteban Ocon"
+   },
+   "matched": 1
+  },
+  {
+   "id": "pit-lane-start-2025-r22-tsunoda",
+   "check": "PEN-MISSING",
+   "verdict": "KNOWN",
+   "title": "Pit-lane start",
+   "reason": "Pit-lane start, not a grid penalty: Jolpica numbers pit-lane starters at the back of the grid, so the places lost are arithmetic.",
+   "scope": {
+    "season": 2025,
+    "round": 22,
+    "driver": "Yuki Tsunoda"
+   },
+   "matched": 1
+  }
+ ],
+ "notNeeded": null
+}
