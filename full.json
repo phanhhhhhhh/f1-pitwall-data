@@ -2,8 +2,8 @@
  "schemaVersion": 1,
  "kind": "full",
  "status": "passed",
- "generatedAt": "2026-10-15T13:32:32Z",
- "auditedThrough": "2026-10-15",
+ "generatedAt": "2026-10-16T06:54:53Z",
+ "auditedThrough": "2026-10-16",
  "scope": "full",
  "seasons": [
   2025,
@@ -320,7 +320,7 @@
    "check": "R-STATUS",
    "verdict": "KNOWN",
    "title": "Provisional classification",
-   "reason": "After a race the app first shows OpenF1's provisional result, which lists a car OpenF1 leaves unclassified without a retirement flag as 'Not classified'. For up to three days the app re-checks Jolpica and replaces it with Jolpica's official classification, which says 'Retired', as soon as that exists.",
+   "reason": "After a race the app first shows OpenF1's provisional result, which lists a car OpenF1 leaves unclassified without a retirement flag as 'Not classified'. For up to three days the app looks at Jolpica again and replaces it with Jolpica's official classification, which says 'Retired', as soon as that exists.",
    "scope": {},
    "matched": 0
   },
