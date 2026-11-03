@@ -2,40 +2,40 @@
  "schemaVersion": 1,
  "kind": "latest",
  "status": "failed",
- "generatedAt": "2026-11-02T02:34:50Z",
- "auditedThrough": "2026-11-02",
+ "generatedAt": "2026-11-03T03:56:51Z",
+ "auditedThrough": "2026-11-03",
  "scope": "latest",
  "seasons": [
   2026
  ],
  "comparisons": {
-  "total": 153,
-  "ok": 128,
+  "total": 182,
+  "ok": 126,
   "known": 7,
   "warn": 0,
   "pending": 0,
-  "fail": 18,
+  "fail": 49,
   "skip": 0
  },
  "byCheck": [
   {
    "code": "R-DRIVERS",
    "label": "Drivers in race results",
-   "ok": 0,
-   "known": 0,
-   "warn": 0,
-   "pending": 0,
-   "fail": 1,
-   "skip": 0
-  },
-  {
-   "code": "R-POS",
-   "label": "Finishing positions",
    "ok": 1,
    "known": 0,
    "warn": 0,
    "pending": 0,
    "fail": 0,
+   "skip": 0
+  },
+  {
+   "code": "R-POS",
+   "label": "Finishing positions",
+   "ok": 0,
+   "known": 0,
+   "warn": 0,
+   "pending": 0,
+   "fail": 11,
    "skip": 0
   },
   {
@@ -51,11 +51,11 @@
   {
    "code": "R-POINTS",
    "label": "Points",
-   "ok": 1,
+   "ok": 0,
    "known": 0,
    "warn": 0,
    "pending": 0,
-   "fail": 0,
+   "fail": 7,
    "skip": 0
   },
   {
@@ -155,17 +155,17 @@
    "known": 0,
    "warn": 0,
    "pending": 0,
-   "fail": 2,
+   "fail": 10,
    "skip": 0
   },
   {
    "code": "ST-CON",
    "label": "Constructors' standings",
-   "ok": 1,
+   "ok": 0,
    "known": 0,
    "warn": 0,
    "pending": 0,
-   "fail": 0,
+   "fail": 6,
    "skip": 0
   },
   {
