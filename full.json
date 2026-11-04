@@ -1,28 +1,28 @@
 {
  "schemaVersion": 1,
  "kind": "full",
- "status": "passed",
- "generatedAt": "2026-10-28T02:21:24Z",
- "auditedThrough": "2026-10-28",
+ "status": "failed",
+ "generatedAt": "2026-11-04T03:01:54Z",
+ "auditedThrough": "2026-11-04",
  "scope": "full",
  "seasons": [
   2025,
   2026
  ],
  "comparisons": {
-  "total": 1099,
-  "ok": 1069,
+  "total": 1130,
+  "ok": 1085,
   "known": 28,
   "warn": 0,
   "pending": 0,
-  "fail": 0,
+  "fail": 15,
   "skip": 2
  },
  "byCheck": [
   {
    "code": "R-DRIVERS",
    "label": "Drivers in race results",
-   "ok": 54,
+   "ok": 55,
    "known": 0,
    "warn": 0,
    "pending": 0,
@@ -32,7 +32,7 @@
   {
    "code": "R-POS",
    "label": "Finishing positions",
-   "ok": 54,
+   "ok": 55,
    "known": 0,
    "warn": 0,
    "pending": 0,
@@ -42,7 +42,7 @@
   {
    "code": "R-STATUS",
    "label": "Finishing status",
-   "ok": 54,
+   "ok": 55,
    "known": 0,
    "warn": 0,
    "pending": 0,
@@ -52,7 +52,7 @@
   {
    "code": "R-POINTS",
    "label": "Points",
-   "ok": 54,
+   "ok": 55,
    "known": 0,
    "warn": 0,
    "pending": 0,
@@ -62,7 +62,7 @@
   {
    "code": "R-GRID",
    "label": "Starting positions",
-   "ok": 54,
+   "ok": 55,
    "known": 0,
    "warn": 0,
    "pending": 0,
@@ -72,7 +72,7 @@
   {
    "code": "R-FL",
    "label": "Fastest lap",
-   "ok": 42,
+   "ok": 43,
    "known": 0,
    "warn": 0,
    "pending": 0,
@@ -82,7 +82,7 @@
   {
    "code": "R-TEAM",
    "label": "Teams in race results",
-   "ok": 54,
+   "ok": 55,
    "known": 0,
    "warn": 0,
    "pending": 0,
@@ -96,7 +96,7 @@
    "known": 0,
    "warn": 0,
    "pending": 0,
-   "fail": 0,
+   "fail": 1,
    "skip": 0
   },
   {
@@ -106,7 +106,7 @@
    "known": 0,
    "warn": 0,
    "pending": 0,
-   "fail": 0,
+   "fail": 13,
    "skip": 0
   },
   {
@@ -116,13 +116,13 @@
    "known": 0,
    "warn": 0,
    "pending": 0,
-   "fail": 0,
+   "fail": 1,
    "skip": 0
   },
   {
    "code": "Q-GRID",
    "label": "Qualifying grid positions",
-   "ok": 42,
+   "ok": 43,
    "known": 0,
    "warn": 0,
    "pending": 0,
@@ -132,7 +132,7 @@
   {
    "code": "PEN-VERIFY",
    "label": "Grid penalties",
-   "ok": 62,
+   "ok": 64,
    "known": 0,
    "warn": 0,
    "pending": 0,
@@ -142,7 +142,7 @@
   {
    "code": "PEN-MISSING",
    "label": "Grid places lost without a penalty",
-   "ok": 34,
+   "ok": 35,
    "known": 14,
    "warn": 0,
    "pending": 0,
@@ -212,7 +212,7 @@
   {
    "code": "WK-MEETING",
    "label": "Weekend sessions",
-   "ok": 54,
+   "ok": 55,
    "known": 0,
    "warn": 0,
    "pending": 0,
@@ -232,7 +232,7 @@
   {
    "code": "DUP",
    "label": "Duplicate entries",
-   "ok": 96,
+   "ok": 98,
    "known": 0,
    "warn": 0,
    "pending": 0,
@@ -242,7 +242,7 @@
   {
    "code": "GAP",
    "label": "Missing results or qualifying",
-   "ok": 54,
+   "ok": 55,
    "known": 0,
    "warn": 0,
    "pending": 0,
@@ -252,7 +252,7 @@
   {
    "code": "GAP-STUCK",
    "label": "Results still provisional",
-   "ok": 54,
+   "ok": 55,
    "known": 0,
    "warn": 0,
    "pending": 0,
