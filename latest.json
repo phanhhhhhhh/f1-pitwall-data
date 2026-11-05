@@ -1,20 +1,20 @@
 {
  "schemaVersion": 1,
  "kind": "latest",
- "status": "failed",
- "generatedAt": "2026-11-03T03:56:51Z",
- "auditedThrough": "2026-11-03",
+ "status": "passed",
+ "generatedAt": "2026-11-05T03:31:54Z",
+ "auditedThrough": "2026-11-05",
  "scope": "latest",
  "seasons": [
   2026
  ],
  "comparisons": {
-  "total": 182,
-  "ok": 126,
-  "known": 7,
+  "total": 140,
+  "ok": 132,
+  "known": 8,
   "warn": 0,
   "pending": 0,
-  "fail": 49,
+  "fail": 0,
   "skip": 0
  },
  "byCheck": [
@@ -31,11 +31,11 @@
   {
    "code": "R-POS",
    "label": "Finishing positions",
-   "ok": 0,
+   "ok": 1,
    "known": 0,
    "warn": 0,
    "pending": 0,
-   "fail": 11,
+   "fail": 0,
    "skip": 0
   },
   {
@@ -51,11 +51,11 @@
   {
    "code": "R-POINTS",
    "label": "Points",
-   "ok": 0,
+   "ok": 1,
    "known": 0,
    "warn": 0,
    "pending": 0,
-   "fail": 7,
+   "fail": 0,
    "skip": 0
   },
   {
@@ -91,31 +91,31 @@
   {
    "code": "Q-DRIVERS",
    "label": "Drivers in qualifying",
-   "ok": 0,
+   "ok": 1,
    "known": 0,
    "warn": 0,
    "pending": 0,
-   "fail": 1,
+   "fail": 0,
    "skip": 0
   },
   {
    "code": "Q-POS",
    "label": "Qualifying positions",
    "ok": 0,
-   "known": 0,
+   "known": 1,
    "warn": 0,
    "pending": 0,
-   "fail": 13,
+   "fail": 0,
    "skip": 0
   },
   {
    "code": "Q-TIMES",
    "label": "Qualifying times",
-   "ok": 0,
+   "ok": 1,
    "known": 0,
    "warn": 0,
    "pending": 0,
-   "fail": 1,
+   "fail": 0,
    "skip": 0
   },
   {
@@ -151,21 +151,21 @@
   {
    "code": "ST-DRV",
    "label": "Drivers' standings",
-   "ok": 0,
+   "ok": 1,
    "known": 0,
    "warn": 0,
    "pending": 0,
-   "fail": 10,
+   "fail": 0,
    "skip": 0
   },
   {
    "code": "ST-CON",
    "label": "Constructors' standings",
-   "ok": 0,
+   "ok": 1,
    "known": 0,
    "warn": 0,
    "pending": 0,
-   "fail": 6,
+   "fail": 0,
    "skip": 0
   },
   {
@@ -504,6 +504,19 @@
     "driver": "Yuki Tsunoda"
    },
    "matched": null
+  },
+  {
+   "id": "qualifying-disqualified-2026-r19-lawson",
+   "check": "Q-POS",
+   "verdict": "KNOWN",
+   "title": "Disqualified from qualifying",
+   "reason": "The driver was disqualified from qualifying for a technical breach and started from the back of the grid. The app lists the driver last in qualifying (22nd); Jolpica still shows the eighth place set before the disqualification.",
+   "scope": {
+    "season": 2026,
+    "round": 19,
+    "driver": "Liam Lawson"
+   },
+   "matched": 1
   }
  ],
  "notNeeded": null
