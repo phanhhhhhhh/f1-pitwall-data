@@ -2,17 +2,17 @@
  "schemaVersion": 1,
  "kind": "latest",
  "status": "passed",
- "generatedAt": "2026-11-10T04:39:29Z",
+ "generatedAt": "2026-11-10T07:03:10Z",
  "auditedThrough": "2026-11-10",
  "scope": "latest",
  "seasons": [
   2026
  ],
  "comparisons": {
-  "total": 144,
-  "ok": 136,
+  "total": 145,
+  "ok": 138,
   "known": 7,
-  "warn": 1,
+  "warn": 0,
   "pending": 0,
   "fail": 0,
   "skip": 0
@@ -131,7 +131,7 @@
   {
    "code": "PEN-VERIFY",
    "label": "Grid penalties",
-   "ok": 5,
+   "ok": 6,
    "known": 0,
    "warn": 0,
    "pending": 0,
@@ -141,9 +141,9 @@
   {
    "code": "PEN-MISSING",
    "label": "Grid places lost without a penalty",
-   "ok": 0,
+   "ok": 1,
    "known": 0,
-   "warn": 1,
+   "warn": 0,
    "pending": 0,
    "fail": 0,
    "skip": 0
