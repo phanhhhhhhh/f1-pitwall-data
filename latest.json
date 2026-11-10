@@ -1,37 +1,37 @@
 {
  "schemaVersion": 1,
  "kind": "latest",
- "status": "failed",
- "generatedAt": "2026-11-09T02:42:54Z",
- "auditedThrough": "2026-11-09",
+ "status": "passed",
+ "generatedAt": "2026-11-10T04:39:29Z",
+ "auditedThrough": "2026-11-10",
  "scope": "latest",
  "seasons": [
   2026
  ],
  "comparisons": {
-  "total": 156,
-  "ok": 122,
+  "total": 144,
+  "ok": 136,
   "known": 7,
   "warn": 1,
-  "pending": 2,
-  "fail": 24,
+  "pending": 0,
+  "fail": 0,
   "skip": 0
  },
  "byCheck": [
   {
    "code": "R-DRIVERS",
    "label": "Drivers in race results",
-   "ok": 0,
+   "ok": 1,
    "known": 0,
    "warn": 0,
-   "pending": 1,
+   "pending": 0,
    "fail": 0,
    "skip": 0
   },
   {
    "code": "R-POS",
    "label": "Finishing positions",
-   "ok": 0,
+   "ok": 1,
    "known": 0,
    "warn": 0,
    "pending": 0,
@@ -41,7 +41,7 @@
   {
    "code": "R-STATUS",
    "label": "Finishing status",
-   "ok": 0,
+   "ok": 1,
    "known": 0,
    "warn": 0,
    "pending": 0,
@@ -51,7 +51,7 @@
   {
    "code": "R-POINTS",
    "label": "Points",
-   "ok": 0,
+   "ok": 1,
    "known": 0,
    "warn": 0,
    "pending": 0,
@@ -61,7 +61,7 @@
   {
    "code": "R-GRID",
    "label": "Starting positions",
-   "ok": 0,
+   "ok": 1,
    "known": 0,
    "warn": 0,
    "pending": 0,
@@ -71,7 +71,7 @@
   {
    "code": "R-FL",
    "label": "Fastest lap",
-   "ok": 0,
+   "ok": 1,
    "known": 0,
    "warn": 0,
    "pending": 0,
@@ -81,7 +81,7 @@
   {
    "code": "R-TEAM",
    "label": "Teams in race results",
-   "ok": 0,
+   "ok": 1,
    "known": 0,
    "warn": 0,
    "pending": 0,
@@ -91,11 +91,11 @@
   {
    "code": "Q-DRIVERS",
    "label": "Drivers in qualifying",
-   "ok": 0,
+   "ok": 1,
    "known": 0,
    "warn": 0,
    "pending": 0,
-   "fail": 1,
+   "fail": 0,
    "skip": 0
   },
   {
@@ -121,11 +121,11 @@
   {
    "code": "Q-GRID",
    "label": "Qualifying grid positions",
-   "ok": 0,
+   "ok": 1,
    "known": 0,
    "warn": 0,
    "pending": 0,
-   "fail": 6,
+   "fail": 0,
    "skip": 0
   },
   {
@@ -151,21 +151,21 @@
   {
    "code": "ST-DRV",
    "label": "Drivers' standings",
-   "ok": 0,
+   "ok": 1,
    "known": 0,
    "warn": 0,
    "pending": 0,
-   "fail": 11,
+   "fail": 0,
    "skip": 0
   },
   {
    "code": "ST-CON",
    "label": "Constructors' standings",
-   "ok": 0,
+   "ok": 1,
    "known": 0,
    "warn": 0,
    "pending": 0,
-   "fail": 6,
+   "fail": 0,
    "skip": 0
   },
   {
@@ -201,10 +201,10 @@
   {
    "code": "CAL-STATUS",
    "label": "Calendar status",
-   "ok": 30,
+   "ok": 31,
    "known": 0,
    "warn": 0,
-   "pending": 1,
+   "pending": 0,
    "fail": 0,
    "skip": 0
   },
@@ -231,7 +231,7 @@
   {
    "code": "DUP",
    "label": "Duplicate entries",
-   "ok": 1,
+   "ok": 2,
    "known": 0,
    "warn": 0,
    "pending": 0,
@@ -251,7 +251,7 @@
   {
    "code": "GAP-STUCK",
    "label": "Results still provisional",
-   "ok": 25,
+   "ok": 26,
    "known": 0,
    "warn": 0,
    "pending": 0,
