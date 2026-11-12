@@ -2,15 +2,15 @@
  "schemaVersion": 1,
  "kind": "latest",
  "status": "passed",
- "generatedAt": "2026-11-10T08:52:31Z",
- "auditedThrough": "2026-11-10",
+ "generatedAt": "2026-11-12T03:51:54Z",
+ "auditedThrough": "2026-11-12",
  "scope": "latest",
  "seasons": [
   2026
  ],
  "comparisons": {
-  "total": 145,
-  "ok": 138,
+  "total": 170,
+  "ok": 163,
   "known": 7,
   "warn": 0,
   "pending": 0,
@@ -252,6 +252,16 @@
    "code": "GAP-STUCK",
    "label": "Results still provisional",
    "ok": 26,
+   "known": 0,
+   "warn": 0,
+   "pending": 0,
+   "fail": 0,
+   "skip": 0
+  },
+  {
+   "code": "DRV-MISSING",
+   "label": "Drivers missing from the app",
+   "ok": 25,
    "known": 0,
    "warn": 0,
    "pending": 0,
