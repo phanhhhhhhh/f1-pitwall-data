@@ -1,21 +1,21 @@
 {
  "schemaVersion": 1,
  "kind": "full",
- "status": "passed",
- "generatedAt": "2026-11-11T04:30:03Z",
- "auditedThrough": "2026-11-11",
+ "status": "failed",
+ "generatedAt": "2026-11-18T04:29:00Z",
+ "auditedThrough": "2026-11-18",
  "scope": "full",
  "seasons": [
   2025,
   2026
  ],
  "comparisons": {
-  "total": 1186,
+  "total": 1187,
   "ok": 1155,
-  "known": 29,
+  "known": 28,
   "warn": 0,
   "pending": 0,
-  "fail": 0,
+  "fail": 2,
   "skip": 2
  },
  "byCheck": [
@@ -102,8 +102,8 @@
   {
    "code": "Q-POS",
    "label": "Qualifying positions",
-   "ok": 43,
-   "known": 1,
+   "ok": 44,
+   "known": 0,
    "warn": 0,
    "pending": 0,
    "fail": 0,
@@ -112,11 +112,11 @@
   {
    "code": "Q-TIMES",
    "label": "Qualifying times",
-   "ok": 44,
+   "ok": 43,
    "known": 0,
    "warn": 0,
    "pending": 0,
-   "fail": 0,
+   "fail": 2,
    "skip": 0
   },
   {
@@ -527,7 +527,7 @@
     "round": 19,
     "driver": "Liam Lawson"
    },
-   "matched": 1
+   "matched": 0
   }
  ],
  "notNeeded": null
