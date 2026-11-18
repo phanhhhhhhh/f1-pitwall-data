@@ -1,8 +1,8 @@
 {
  "schemaVersion": 1,
  "kind": "full",
- "status": "failed",
- "generatedAt": "2026-11-18T04:29:00Z",
+ "status": "passed",
+ "generatedAt": "2026-11-18T07:17:43Z",
  "auditedThrough": "2026-11-18",
  "scope": "full",
  "seasons": [
@@ -10,12 +10,12 @@
   2026
  ],
  "comparisons": {
-  "total": 1187,
-  "ok": 1155,
+  "total": 1186,
+  "ok": 1156,
   "known": 28,
   "warn": 0,
   "pending": 0,
-  "fail": 2,
+  "fail": 0,
   "skip": 2
  },
  "byCheck": [
@@ -112,11 +112,11 @@
   {
    "code": "Q-TIMES",
    "label": "Qualifying times",
-   "ok": 43,
+   "ok": 44,
    "known": 0,
    "warn": 0,
    "pending": 0,
-   "fail": 2,
+   "fail": 0,
    "skip": 0
   },
   {
