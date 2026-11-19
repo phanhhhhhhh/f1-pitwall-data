@@ -2,8 +2,8 @@
  "schemaVersion": 1,
  "kind": "full",
  "status": "passed",
- "generatedAt": "2026-11-18T07:17:43Z",
- "auditedThrough": "2026-11-18",
+ "generatedAt": "2026-11-19T07:43:49Z",
+ "auditedThrough": "2026-11-19",
  "scope": "full",
  "seasons": [
   2025,
@@ -515,19 +515,6 @@
     "driver": "Yuki Tsunoda"
    },
    "matched": 1
-  },
-  {
-   "id": "qualifying-disqualified-2026-r19-lawson",
-   "check": "Q-POS",
-   "verdict": "KNOWN",
-   "title": "Disqualified from qualifying",
-   "reason": "The driver was disqualified from qualifying for a technical breach and started from the back of the grid. The app lists the driver last in qualifying (22nd); Jolpica still shows the eighth place set before the disqualification.",
-   "scope": {
-    "season": 2026,
-    "round": 19,
-    "driver": "Liam Lawson"
-   },
-   "matched": 0
   }
  ],
  "notNeeded": null
