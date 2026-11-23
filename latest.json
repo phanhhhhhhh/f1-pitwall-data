@@ -2,8 +2,8 @@
  "schemaVersion": 1,
  "kind": "latest",
  "status": "passed",
- "generatedAt": "2026-11-22T11:05:36Z",
- "auditedThrough": "2026-11-22",
+ "generatedAt": "2026-11-23T03:44:19Z",
+ "auditedThrough": "2026-11-23",
  "scope": "latest",
  "seasons": [
   2026
